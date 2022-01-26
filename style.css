@@ -8,20 +8,68 @@ body {
 .header,
 .middle {
     background-color: #1F2937;
-    color: #F9FAF8;
+    color: #E5E7EB;
     padding-bottom: 40px;
+    font-size: 18px;
 }
 
 .logo {
-    font-weight: bolder;
     margin: 16px;
+    color: #F9FAF8;
+    font-size: 24px;
 }
 
 .header,
 ul {
     display: flex;
     justify-content: space-around;
-    text-decoration: none;
     list-style: none;
     gap: 20px;
+}
+
+/*comment section one*/
+h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+.middle .wanted {
+    height: 300px;
+    width: auto;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 80px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+
+
+img {
+    height: 200px;
+}
+
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
 }

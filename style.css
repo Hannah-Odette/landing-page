@@ -91,12 +91,16 @@ h3 {
 }
 
 /*section three*/
-.quote {
+.testimony {
     background-color: #E5E7EB;
     color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
     padding: 100px;
-    padding-left: 300px;
-    padding-right: 300px;
+    max-width: 1300px;
 }
 
 .quote2 {
